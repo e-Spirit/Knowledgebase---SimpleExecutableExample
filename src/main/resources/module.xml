@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+    <name>${project.artifactId}</name>
+    <version>${project.version}</version>
+    <description>${project.artifactId}</description>
+    <vendor>com.espirit.moddev.knowledgebase.simpleExecutableExample</vendor>
+    <components>
+        <public>
+            <name>SimpleExecutableExample</name>
+            <class>com.espirit.moddev.knowledgebase.simpleExecutableExample.${project.artifactId}Executable</class>
+        </public>
+    </components>
+    <resources>
+        <resource scope="module">lib/${project.artifactId}-${project.version}.jar</resource>
+    </resources>
+</module>
